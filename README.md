@@ -17,11 +17,9 @@ function setupCounter(element: HTMLButtonElement) {
   const counter = createSignal(0)
   const double = computed(() => counter.value * 2)
 
-  const setCounter = () => {
+  createEffect(() => {
     element.innerHTML = `count is ${counter.value}, double is ${double.value}`
-  }
-
-  createEffect(setCounter)
+  })
 
   element.addEventListener('click', () => {
     counter.value++

@@ -6,13 +6,13 @@
   "author": "guygubaby <guygubaby@gmail.com>",
   "license": "MIT",
   "funding": "https://github.com/sponsors/guygubaby",
-  "homepage": "https://github.com/guygubaby/@bryce-loskie/signal#readme",
+  "homepage": "https://github.com/guygubaby/signal#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guygubaby/@bryce-loskie/signal.git"
+    "url": "git+https://github.com/guygubaby/signal.git"
   },
   "bugs": {
-    "url": "https://github.com/guygubaby/@bryce-loskie/signal/issues"
+    "url": "https://github.com/guygubaby/signal/issues"
   },
   "keywords": [],
   "sideEffects": false,
