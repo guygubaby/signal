@@ -41,14 +41,12 @@
     "prepublishOnly": "pnpm build",
     "start": "tsx src/index.ts",
     "dev": "pnpm build -- --watch",
+    "dev:play": "pnpm -r run dev",
     "build": "tsup",
     "release": "bumpp --commit --push --tag && pnpm publish --access public",
     "lint": "eslint .",
     "test": "vitest",
     "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@bryce-loskie/utils": "^0.2.1"
   },
   "devDependencies": {
     "@bryce-loskie/eslint-config": "^2.0.10",

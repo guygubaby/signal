@@ -59,7 +59,7 @@ export const createEffect = (fn: Fn) => {
 }
 
 export const computed = <T = any>(fn: Fn<T>) => {
-  const signal = new Signal()
+  const signal = new Signal<T>()
 
   const dispose = createEffect(() => {
     signal.value = fn() as any
