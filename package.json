@@ -1,6 +1,6 @@
 {
   "name": "@bryce-loskie/signal",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "packageManager": "pnpm@7.24.2",
   "description": "simple signal implementation",
   "author": "guygubaby <guygubaby@gmail.com>",
